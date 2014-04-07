@@ -1,0 +1,10 @@
+ToDo List
+-------------------
+Everything so far
+HashMap regular characters to upside down characters
+	Using two strings, and not doing it by hand for each character
+		ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz∀qƆpƎℲפHIſʞ˥WNOԀQɹS┴∩ΛMX⅄Z0ƖᄅƐㄣϛ9ㄥ86 ¿¡˙
+		use this for one of the strings
+	Using StringBuilder for the strings
+	For abit of speed
+	
