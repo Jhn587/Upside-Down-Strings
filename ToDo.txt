@@ -13,3 +13,7 @@ Figure out how to convert stringbuilder to string
 a tostring method
 a driver class
 testing
+
+--------------------
+Get all upside down letters working
+\u0000

@@ -1,12 +1,14 @@
+import java.util.HashMap;
+
 public class WordFlipper{
 	private HashMap<Character,Character> toGetFlipped;
-	private String flippedChars = "ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz∀qƆpƎℲפHIſʞ˥WNOԀQɹS┴∩ΛMX⅄Z0ƖᄅƐㄣϛ9ㄥ86 ¿¡˙";
-	private String nonFlippedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ?!.";
+	private String flippedChars = "ɐqɔpǝɟƃɥᴉɾʞlɯuodbɹsʇnʌʍxʎz∀qƆpƎℲפHIſʞ˥WNOԀQɹS┴∩ΛMX⅄ZƖᄅƐㄣϛ9ㄥ860¿¡˙ ";
+	private String nonFlippedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!. ";
 	private String toFlip;
 	private String flipped;
 	
 	public WordFlipper(String toFlip){
-		this.toFlip = toFlip;
+		this.toFlip = toFlip.toLowerCase();
 		this.toGetFlipped = populateTheMap(this.toGetFlipped);
 		StringBuilder flippedSB = flipThatString(this.toFlip);
 		this.flipped = convertStringBuilderToString(flippedSB);
@@ -30,8 +32,12 @@ public class WordFlipper{
 	}
 	
 	private String converStringBuilderToString(StringBuilder toConvert){
+		return toConvert.toString();
 	
+	}
 	
+	public String toString(){
+		return this.flipped;
 	}
 	
 }
