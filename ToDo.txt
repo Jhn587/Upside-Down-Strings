@@ -8,3 +8,8 @@ HashMap regular characters to upside down characters
 	Using StringBuilder for the strings
 	For abit of speed
 	
+-----------------
+Figure out how to convert stringbuilder to string
+a tostring method
+a driver class
+testing
