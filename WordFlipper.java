@@ -1,17 +1,19 @@
-import java.util.HashMap;
+﻿import java.util.HashMap;
 
 public class WordFlipper{
 	private HashMap<Character,Character> toGetFlipped;
-	private String flippedChars = " qɔp ɟƃɥᴉɾʞlɯuodbɹsʇnʌ xʎz∀qƆpƎℲפHIſʞ˥WNOԀQɹS┴∩ΛMX⅄ZƖᄅ ㄣϛ9ㄥ860¿¡˙ ";
+	private String flippedChars = " q?p ??????l?uodb?s?n? x?z?q?p???HI???WNO?Q?S-n?MX9860��";
 	private String nonFlippedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!. ";
 	private String toFlip;
+	upsidedown = "?q?p???????l?uodb?s?n??x?z?q?p???HI???WNO?Q?S-n?MX?Z0?????9?86 ��?";
+
 	private String flipped;
 	
 	public WordFlipper(String toFlip){
 		this.toFlip = toFlip.toLowerCase();
-		this.toGetFlipped = populateTheMap(this.toGetFlipped);
-		StringBuilder flippedSB = flipThatString(this.toFlip);
-		this.flipped = convertStringBuilderToString(flippedSB);
+		//this.toGetFlipped = populateTheMap(this.toGetFlipped);
+		//StringBuilder flippedSB = flipThatString(this.toFlip);
+		//this.flipped = convertStringBuilderToString(flippedSB);
 	}
 	
 	private HashMap<Character, Character> populateTheMap(HashMap<Character,Character> toFill){
@@ -39,9 +41,10 @@ public class WordFlipper{
 	}
 	
 	public String toString(){
-		return this.flipped;
+		//return this.flipped;
+		return this.upsidedown.toString();
 	}
 	
 }
 
-// q╔öp ╔ƒ╞â╔Ñß┤ë╔╛╩₧l╔»uodb╔╣s╩çn╩î╩?
+// q+�p +���+�ߦ�++-Pl+�uodb+�s-�n-�-?
