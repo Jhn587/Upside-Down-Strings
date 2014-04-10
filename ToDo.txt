@@ -21,3 +21,15 @@ Get all upside down letters working
 --------------
 Just needs the upside down letters
 and testing
+
+
+javac -encoding ISO-8859-1 WordFlipper.java
+-----------------------------------------------------
+Stuck with issues using/displaying unicode as more than ? in powerShell, not sure how to continue.
+-------------------------------------------------------
+How to that worked on atleast one char
+example: the input window has the upside down h.
+		String hex = "0447";
+		int intValue = Integer.parseInt(hex, 16);
+		
+		String toConvert = JOptionPane.showInputDialog((char) intValue);

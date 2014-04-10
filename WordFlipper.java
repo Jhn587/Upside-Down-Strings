@@ -8,10 +8,10 @@ public class WordFlipper{
 	private String flipped;
 	
 	public WordFlipper(String toFlip){
-		this.toFlip = toFlip.toLowerCase();
-		this.toGetFlipped = populateTheMap(this.toGetFlipped);
-		StringBuilder flippedSB = flipThatString(this.toFlip);
-		this.flipped = convertStringBuilderToString(flippedSB);
+		//this.toFlip = toFlip.toLowerCase();
+		//this.toGetFlipped = populateTheMap(this.toGetFlipped);
+		//StringBuilder flippedSB = flipThatString(this.toFlip);
+		//this.flipped = convertStringBuilderToString(flippedSB);
 	}
 	
 	private HashMap<Character, Character> populateTheMap(HashMap<Character,Character> toFill){
@@ -39,7 +39,7 @@ public class WordFlipper{
 	}
 	
 	public String toString(){
-		return this.flipped;
+		return this.flippedChars;
 	}
 	
 }
