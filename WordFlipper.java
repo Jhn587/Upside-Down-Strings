@@ -45,3 +45,105 @@ public class WordFlipper{
 }
 
 // q╔öp ╔ƒ╞â╔Ñß┤ë╔╛╩₧l╔»uodb╔╣s╩çn╩î╩?
+
+/*
+a
+b
+	q
+c	
+	"037B" ͻ
+d
+	p
+
+e
+	String hex = "0447";
+	int intValue = Integer.parseInt(hex, 16);
+
+f
+g
+h
+	"044
+i
+j
+l
+m
+	"019c" Ɯ
+	w
+n
+	u
+o
+p
+	d
+q
+	b
+r
+s
+t
+u
+	n
+v
+w
+	m
+x
+y
+z
+A
+B
+C
+	"0186" Ɔ
+D
+E
+	"018E" Ǝ
+F
+G
+H
+	H
+I
+	
+J
+K
+L
+M
+	W
+N
+	"1D3B"ᴻ
+O
+	O
+P
+Q
+R
+S
+	"01A7" Ƨ
+T
+U
+V
+	"0245"Ʌ
+W
+	M
+X
+Y
+Z
+0
+	0
+1
+2
+3	
+	"01B8" Ƹ
+4
+5
+6
+	9
+7
+8
+	8
+9
+	6
+ 
+?
+!
+.
+
+
+
+
+*/
