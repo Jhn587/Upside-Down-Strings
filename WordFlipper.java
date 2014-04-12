@@ -48,6 +48,7 @@ public class WordFlipper{
 
 /*
 a
+	"0250" ɐ
 b
 	q
 c	
@@ -60,14 +61,21 @@ e
 	int intValue = Integer.parseInt(hex, 16);
 
 f
+	"0248" Ɉ
 g
+	"1d77" ᵷ
 h
-	"044
+	"0265" ɥ
 i
+	"1d09" ᴉ
 j
+	"027f" ɿ
+k
+	"029e" ʞ
 l
+	"01aa" ƪ
 m
-	"019c" Ɯ
+	"026f" ɯ
 	w
 n
 	u
@@ -76,18 +84,23 @@ p
 	d
 q
 	b
-r
-s
+r	
+	"0279" ɹ
+s	
+	"01a8" ƨ
 t
+	"0287" ʇ
 u
 	n
 v
+	"028c" ʌ
 w
-	m
+	"028d"  ʍ
 x
 y
 z
 A
+	"2c6f" Ɐ
 B
 C
 	"0186" Ɔ
@@ -95,6 +108,7 @@ D
 E
 	"018E" Ǝ
 F
+	"214e" ⅎ
 G
 H
 	H
@@ -112,6 +126,7 @@ O
 P
 Q
 R
+	"1d1a" ᴚ
 S
 	"01A7" Ƨ
 T
