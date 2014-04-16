@@ -41,7 +41,55 @@ public class WordFlipper{
 	public String toString(){
 		return this.flippedChars;
 	}
-	
+	private char[] reg ={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+	private char[] unproc = {(char)Integer.parseInt("0250", 16),//a
+	q,//b
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	(char)Integer.parseInt(hex, 16),
+	};
 }
 
 // q╔öp ╔ƒ╞â╔Ñß┤ë╔╛╩₧l╔»uodb╔╣s╩çn╩î╩?
@@ -102,12 +150,15 @@ x
 y 
 	"028e" ʎ
 z
+	z
 A
 	"2c6f" Ɐ
 B
+	B
 C
 	"0186" Ɔ
-D
+D	
+	D
 E
 	"018E" Ǝ
 F
@@ -133,11 +184,13 @@ O
 P
 	"042c" Ь
 Q
+	Q
 R
 	"1d1a" ᴚ
 S
 	"01A7" Ƨ
 T
+	"2534"
 U 
 	"05de" מ
 V
@@ -149,26 +202,34 @@ X
 Y
 	"05d2" ׆ג 
 Z
+	Z
 0
 	0
 1
+	"0196" Ɩ
 2
+	"1105" ᄅ 
 3	
 	"01B8" Ƹ
-4
+4	
+	"3123" ㄣ
 5
+	"03DB" ϛ
 6
 	9
 7
+	"3125" ㄥ 
 8
 	8
 9
 	6
  
 ?
-!
+	"00BF" ¿ 
+!	
+	"00A1" ¡ 
 .
-
+	"02D9" ˙ 
 
 
 
